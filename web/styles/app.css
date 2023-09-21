@@ -15,13 +15,14 @@
 
 #app > h2 {
   align-self: flex-start; /* alinhar eu mesmo do inicio */
-  margin-top: 104px;
+  margin-top: 64px;
 }
 
 #app > p {
   align-self: flex-start;
   text-align: justify;
   width: 512px;
+  margin-top: -5px;
 }
 
 /* classe para quando a pessoa não tem resultado ficara um pouco apagado e não selecionará o texto  */
