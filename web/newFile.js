@@ -1,8 +1,5 @@
 import { server } from "./server.js"
-
-const form = document.querySelector("#form")
-const input = document.querySelector("#url")
-const content = document.querySelector("#content")
+import { form, content, input } from "./form.js"
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault() //previne o evento, não recarrega a pagina
